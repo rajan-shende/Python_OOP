@@ -13,7 +13,7 @@ class Shape(metaclass = ABCMeta):
     def areaCal(self):
      return 0
 
-class Square:
+class Square(Shape):
     side = 10
     def areaCal(self):
         print("Area of square is : ", self.side * self.side)
